@@ -1,11 +1,13 @@
-# Learn Hotwire by Building a Forum
+## Course - [Learning Hotwire](https://store.afomera.dev/)
 
-This is the source code for the course [Learn Hotwire by Building a Forum](https://store.afomera.dev/learn-hotwire)
+- Ruby version (3.0.0)
+- Rails version (6.1.3)
 
-Each lesson is available as a branch.
+### System dependencies
+`gem install pg`
 
-### Requirements
-- Ruby 3.0
-- Postgres 10+ (or higher!)
-- Rails 6.1.3.1
+### Configuration
+- docker-compose up (for postgres container creation)
 
+### Database creation
+- `rails db:create`
